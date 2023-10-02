@@ -33,7 +33,7 @@ dropout = 0.2
 learning_rate = 0.001
 
 
-GPUs = [2]
+GPUs = [0, 1, 2, 3]
 GPUs = ["/gpu:{}".format(gpu) for gpu in GPUs]
 batch_size = 256*len(GPUs)
 
